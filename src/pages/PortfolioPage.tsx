@@ -6,19 +6,20 @@ export default function PortfolioPage() {
                     <span>АВ</span>
                 </div>
                 <div className="portfolio-info">
-                    <h2>Иванов Иван</h2>
-                    <p className="portfolio-role">Ученик 10 класса</p>
-                    <p className="portfolio-school">МБОУ «Лицей №1»</p>
+                    <h2>Федорова Сайаана</h2>
+                    <p className="portfolio-role">Ученица 9 класса</p>
+                    <p className="portfolio-school">ЫКСОШ Nº1</p>
                 </div>
             </section>
 
             <section className="portfolio-section">
                 <h3>О себе</h3>
                 <p>
-                    Увлекаюсь литературой и кулинарией. Этот проект объединяет
-                    два моих увлечения и позволяет исследовать, как авторы
-                    используют гастрономические описания для создания атмосферы
-                    произведений.
+                    Люблю открывать новое на стыке литературы, языка и
+                    иллюстрации. Регулярно проверяю свои силы в олимпиадах и
+                    научно-практических конференциях. Верю, что учеба может быть
+                    красивой и увлекательной, поэтому создаю авторские материалы
+                    и планирую дальше развивать свое дело в этом направлении.
                 </p>
             </section>
 
@@ -27,8 +28,8 @@ export default function PortfolioPage() {
                 <ul className="interests-list">
                     <li>Литературный анализ</li>
                     <li>История быта и кулинарии</li>
-                    <li>Культурология</li>
-                    <li>Практическая реконструкция исторических блюд</li>
+                    <li>Книжная иллюстрация</li>
+                    <li>Визуализация художественного текста на уроках языка</li>
                 </ul>
             </section>
 
@@ -36,19 +37,15 @@ export default function PortfolioPage() {
                 <h3>Достижения</h3>
                 <div className="achievements-grid">
                     <div className="achievement-card">
-                        <h4>🏆 Призер школьной НПК</h4>
-                        <p>2025 год — исследование творчества А.С. Пушкина</p>
-                    </div>
-                    <div className="achievement-card">
-                        <h4>📚 Публикация</h4>
+                        <h4>🏆 Призер НПК</h4>
                         <p>
-                            Статья в школьном научном журнале «Юный
-                            исследователь»
+                            Призер республиканской научно-практической
+                            конференции "Инникигэ хардыы"
                         </p>
                     </div>
                     <div className="achievement-card">
                         <h4>🎓 Олимпиада</h4>
-                        <p>Победитель муниципальной олимпиады по литературе</p>
+                        <p>Призер республиканских олимпиад</p>
                     </div>
                 </div>
             </section>
@@ -57,11 +54,11 @@ export default function PortfolioPage() {
                 <h3>Контакты</h3>
                 <div className="contacts-list">
                     <p>
-                        <strong>Email:</strong> ivanov@example.com
+                        <strong>Email:</strong> sayaanafedd@gmail.com
                     </p>
                     <p>
-                        <strong>Научный руководитель:</strong> Петрова Мария
-                        Сергеевна, учитель литературы
+                        <strong>Научный руководитель:</strong> Петрова Евдокия
+                        Владиславовна, учитель русского языка и литературы
                     </p>
                 </div>
             </section>

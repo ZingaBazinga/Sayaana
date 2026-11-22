@@ -33,13 +33,6 @@ export default function BurgerMenu() {
                             Главная
                         </Link>
                         <Link
-                            to="/recipes"
-                            className={`mobile-menu-link ${location.pathname === "/recipes" ? "active" : ""}`}
-                            onClick={closeMenu}
-                        >
-                            Рецепты
-                        </Link>
-                        <Link
                             to="/portfolio"
                             className={`mobile-menu-link ${location.pathname === "/portfolio" ? "active" : ""}`}
                             onClick={closeMenu}

@@ -13,12 +13,6 @@ export default function Sidebar() {
                     Главная
                 </Link>
                 <Link
-                    to="/recipes"
-                    className={`sidebar-link ${location.pathname === "/recipes" ? "active" : ""}`}
-                >
-                    Рецепты
-                </Link>
-                <Link
                     to="/portfolio"
                     className={`sidebar-link ${location.pathname === "/portfolio" ? "active" : ""}`}
                 >
