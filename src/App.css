@@ -308,6 +308,16 @@ body {
     margin-bottom: 24px;
 }
 
+.recipe-image {
+    display: block;
+    width: min(100%, 320px);
+    aspect-ratio: 3 / 4;
+    object-fit: cover;
+    border-radius: 8px;
+    margin: 0 auto 16px;
+    border: 1px solid var(--border);
+}
+
 .recipe-header h3 {
     font-size: 1.8rem;
     color: var(--text-primary);

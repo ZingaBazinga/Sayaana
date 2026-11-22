@@ -15,6 +15,12 @@ export default function RecipesPage() {
 
             <div className="recipe-content">
                 <div className="recipe-header">
+                    <img
+                        src={selectedRecipe.image}
+                        alt={selectedRecipe.title}
+                        className="recipe-image"
+                        loading="lazy"
+                    />
                     <h3>{selectedRecipe.title}</h3>
                     <p className="book-source">{selectedRecipe.book}</p>
                 </div>
