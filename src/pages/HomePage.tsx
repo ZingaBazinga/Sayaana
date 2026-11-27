@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export default function HomePage() {
     return (
         <div className="home-page">
@@ -51,6 +53,11 @@ export default function HomePage() {
                     </div>
                     <div className="feature-card">
                         <h4>Онлайн-тесты</h4>
+                    </div>
+                    <div className="feature-card">
+                        <Link to="/warmups">
+                            <h4>Вкусные разминки</h4>
+                        </Link>
                     </div>
                 </div>
             </section>
